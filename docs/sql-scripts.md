@@ -11,8 +11,8 @@ ORDER BY COUNT(id) DESC;
 
 ## List each user/group with the titles and links of their subscribed feeds
 ```sql
-SELECT 
-  s.user_id AS "User/Group", 
+SELECT
+  s.user_id AS "User/Group",
   GROUP_CONCAT(f.title, CHAR(10)) AS "Feed Title",
   GROUP_CONCAT(f.link, CHAR(10)) AS "Feed Link",
   COUNT(*) AS feed_count

@@ -7,8 +7,8 @@ from telegram import Update, Bot, ParseMode
 from telegram.ext import CommandHandler, Updater, CallbackContext
 
 # --- Configuration ---
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")  # Set your bot token
-TELEGRAM_TARGET = os.environ.get("TELEGRAM_TARGET")  # User ID or channel username
+TELEGRAM_TOKEN = os.environ.get("7618793798:AAEAiMaa-MmpSZQAnVUPaDZczYS7pxKhTj4")  # Set your bot token
+TELEGRAM_TARGET = os.environ.get("-1002263570182")  # User ID or channel username
 QB_HOST = os.environ.get("QB_HOST", "localhost")
 QB_PORT = int(os.environ.get("QB_PORT", 8080))
 QB_USERNAME = os.environ.get("QB_USERNAME", "admin")
